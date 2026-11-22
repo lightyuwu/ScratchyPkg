@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html data-theme="light">
+    <head>
+        <title>Search - ScratchyPkg</title>
+        <link id="theme-stylesheet" rel="stylesheet" href="styles/light.css"/>
+        <link rel="stylesheet" href="styles/style.css"/>
+
+        <script src="https://unpkg.com/lucide@latest"></script>
+        <script src="scripts/common.js" defer></script>
+        <script src="scripts/theme.js" defer></script>
+        <script src="scripts/pkg.js" defer></script>
+        <script src="scripts/search.js" defer></script>
+    </head>
+    <body>
+        <nav>
+            <a class="logo" href="index.html" aria-label="ScratchyPkg home">
+                <img src="res/logo.png"/>
+            </a>
+            <form class="input_box" action="search.html">
+                <i data-lucide="search"></i>
+                <input name="query" id="query" placeholder="Search" aria-label="Search" />
+            </form>
+            <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+                <span class="icon-moon"><i data-lucide="moon"></i></span>
+                <span class="icon-sun"><i data-lucide="sun"></i></span>
+            </button>
+        </nav>
+        <script>
+            lucide.createIcons();
+        </script>
+
+        <main></main>
+    </body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html data-theme="light">
+    <head>
+        <title>ScratchyPkg - Home</title>
+        <link id="theme-stylesheet" rel="stylesheet" href="styles/light.css"/>
+        <link rel="stylesheet" href="styles/style.css"/>
+
+        <script src="https://unpkg.com/lucide@latest"></script>
+        <script src="scripts/common.js" defer></script>
+        <script src="scripts/theme.js" defer></script>
+        <script src="scripts/pkg.js" defer></script>
+        <script src="scripts/packages.js" defer></script>
+    </head>
+    <body>
+        <nav>
+            <a class="logo" href="index.html" aria-label="ScratchyPkg home">
+                <img src="res/logo.png"/>
+            </a>
+            <form class="input_box" action="search.html">
+                <i data-lucide="search"></i>
+                <input name="query" id="query" placeholder="Search" aria-label="Search" />
+            </form>
+            <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+                <span class="icon-moon"><i data-lucide="moon"></i></span>
+                <span class="icon-sun"><i data-lucide="sun"></i></span>
+            </button>
+        </nav>
+        <script>
+            lucide.createIcons();
+        </script>
+
+        <main>
+
+            <div class="container activities">
+                <h4>
+                    What's Happening?
+                </h4>
+                <div class="content">
+
+                    <div class="activity">
+                        There is currently no activity.
+                    </div>
+                    <div class="activity">
+                        
+                    </div>
+                    <div class="activity">
+                        
+                    </div>
+                    <div class="activity">
+                        
+                    </div>
+                    <div class="activity">
+                        
+                    </div>
+                
+                </div>
+            </div>
+
+            <div class="container information">
+                <h4>
+                    ScratchyPkg
+                </h4>
+                <div class="content">
+                    <p>Welcome to ScratchyPkg!</p>
+                    <p>We currently have <span data-package-count>%PACKAGE_COUNT%</span> packages.</p>
+                    <p>To upload your own package, go to:
+                    <br/>
+                    <a href="https://github.com/lightyuwu/scratchypkg_db/wiki">Our GitHub Wiki for Instructions</a>
+                    <br/>
+                    <a href="https://github.com/lightyuwu/scratchypkg_db">Or directly to our GitHub Repository</a>
+                    </p>
+                </div>
+            </div>
+            
+            <div class="container popular">
+                <h4>Popular Packages</h4>
+                <div class="content">Loading...</div>
+            </div>
+
+            <div class="container new">
+                <h4>New Packages</h4>
+                <div class="content">Loading...</div>
+            </div>
+        </main>
+    </body>
+</html>

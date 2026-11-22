@@ -1,0 +1,14 @@
+:root {
+    --titlebar-bg: rgb(52%,36%,84%);
+    --titlebar-sec: #7A56C1;
+    --titlebar-fg: white;
+    --titlebar-search: #DDD;
+    --background: #1e1e24;
+    --foreground: #f2f2f5;
+    --border: hsl(0, 0%, 30%);
+    --pkg-border: hsl(0, 0%, 30%);
+    --alt-header-bg: #292932;
+    --alt-header-fg: #e6e6ec;
+    --muted-fg: #b8b8c4;
+    --link-fg: #b9a5ff;
+}
